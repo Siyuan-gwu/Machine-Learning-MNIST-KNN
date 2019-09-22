@@ -73,7 +73,6 @@ print ('Time used: {}'.format(end - start))
 #     m = test_labels.shape[0]
 #     resultList = []
 #     errorCount = 0
-#     # 对每一个测试数据向量进行分类，并记录结果
 #     for i in range(m):
 #         nowLabel = classifyDigit(test_images[i], train_images, train_labels, k)
 #         resultList.append(int(nowLabel))
